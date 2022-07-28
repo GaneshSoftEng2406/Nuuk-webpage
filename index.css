@@ -1,0 +1,1276 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+p{
+        color: #919197;
+        font-size: 17px;
+        line-height: 25px;
+}
+#navBar{
+        Position: relative;
+        Height: 85vh;
+        Padding-right: 5%;
+        Padding-left: 5%;
+        Background-color: #c1c3cc;
+        background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%),url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg"); 
+        background-size:cover;
+    }
+    #Nav {
+        margin: 2% auto;
+        display:flex;
+        Background-Color: #fff;
+        position: absolute;
+        width:90%;height: 13%;
+    }
+    #logos,#logos2{
+        padding-right: 35px;
+        padding-left: 35px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        box-sizing: border-box;
+        cursor:pointer;
+        font-size: 14px;
+        color:white;
+        text-decoration: none;
+        background-color: #e47312;
+        height: 110px;
+        position: absolute;
+       
+    }
+    #nuuk-img{
+        width:90px;
+    }
+    #nav-topmenu{
+        position:absolute;
+        right:0;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .nav-links{
+        display: inline-block;
+        padding: 31px 14px;
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    #home,.nav-links:hover{
+        color:#e47312;
+    }
+    #dragdown-icon{
+        width:9px;height: 9px;
+    }
+    #page-dropdown{
+        position: relative;
+    }
+    #page-dropdown ul{
+        position: absolute;
+        top:60px;
+        width:180%;
+        background-color: white;
+        padding:0px 5px;
+        list-style: none;
+    }
+    #page-dropdown ul li a{
+        display:none;
+    }
+    #page-dropdown:hover ul li a{
+        display:block;
+        font-size:12px;
+        color:grey;
+        font-weight: 600;
+        margin-bottom: 3px;
+        text-decoration: none;
+        padding:9px 7px;
+        z-index: 1;
+    }
+    #page-dropdown:hover ul li a:hover{
+        color:#e47312 ;
+        background-color:#F1F1F7;
+    }
+    #get-free-buttn,#dream-para a{
+        width:150px;
+        height:13%;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-color:#e47312;
+        color:white;
+        text-align: center;
+        padding:32px 0px;
+        font-size: 13px;
+    }
+    #get-free-buttn:hover,#dream-para a:hover{
+        background-color:#E98A38;
+    }
+    #dream-para{
+        position: absolute;
+        width:100vh;
+    }
+    #dream-para a{
+     height:35px;
+     padding:15px 35px;
+     margin-left:7%; 
+
+    }
+    #navBar h1{
+        color:white;
+        margin-top:30%;
+        margin-left:7%;
+        font-size:62px;
+    }
+    #navBar p{
+        color: hsla(0, 0%, 100%, 0.7);
+        margin:5% 0% 7% 7%;
+        font-size:20px;
+    }
+    #social-apps{
+        position:absolute;
+        right:0;top:43%;
+        Background-Color: #0a1229;
+        display:flex;
+        flex-direction: column;
+
+    }
+    #social-apps img{
+        width: 15px;
+        height: 15px;
+        padding:20px;
+        border-bottom: 1px solid hsla(0, 0%, 100%, 0.14);
+
+    }
+    #info-section{
+        position:absolute;
+        box-sizing: border-box;
+        bottom:-83px;right:0;
+        Width: 1000px;
+        Padding: 50px 70px 40px 100px;
+        Background-color: #e47312;
+        Background-image: linear-gradient(186deg, #e47312, #ff6361);
+        display:flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    #info-section div{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:200px;
+        Margin-bottom: 2px;
+        color: hsla(0, 0%, 100%, 0.7);
+        Letter-spacing : 1px;
+    }
+    #info-section div .middleline{
+        color: hsla(0, 0%, 100%, 0.7);
+        Letter-spacing : 1px;
+        font-size: 15px;
+        margin:2px 0px;
+    }
+    #info-section .firstline,#info-section #map{
+        color:white;
+        margin:11px 0px;
+        font-size: 13px;
+        font-weight: 600;
+        Line-height: 20px;
+        Letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    #info-section div img{
+        width:25px;height:25px;
+
+    }
+    #info-section div:last-child{
+         width:250px;
+    }
+    #info-section #map:hover{
+        cursor: pointer;
+       border-bottom:2px solid white;
+    }
+    #services-section{
+        margin-top:20%;
+        width: 87%;
+        transform: translate(130px,-80px);
+    }
+    .heading-part h1{
+        color: rgba(241, 241, 247, 0.4);
+        font-size: 120px;
+        letter-spacing: 11px;
+        transform: translate(-30px,-80px);
+        position: absolute;
+         z-index: -1;
+    }
+    .heading-part div{
+        transform: translate(-20px,20px);
+        display:flex;
+        justify-content: space-between;
+        width:90%;
+    }
+    .heading-part div h2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 42px;
+        Line-height: 50px;
+        Letter-spacing: 1px;
+    }
+    .heading-part div p{
+        color: #919198;
+        font-size: 13px;
+        Letter-spacing: 1px;
+        font-weight: 600;
+    }   
+    #service-cards{
+        display:flex;
+        box-sizing: border-box;
+        margin-top:90px;
+        left:5%;width:90%;
+
+    }
+    #service-cards div{
+        width:35%;
+        padding-right:5px;
+        margin-bottom:10px;
+        margin-right:20px;
+    }
+    #service-cards div .service-title{
+         margin-top:0px;
+         margin-bottom:10px;
+         color: #121213;
+         font-size:17px;
+         font-weight: 600;
+         letter-spacing: 2px;
+         line-height:30px;
+
+    }
+    #service-cards div img{
+        width:60px;height:60px;
+        margin-bottom:20px;
+
+    }
+    #service-cards div .descripiton{
+        padding-right:1px;
+        padding-bottom:10px;
+    }
+    #service-cards div .learn-more{
+        margin:0;
+        color: #919198;
+        box-sizing: border-box;
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        display:inline-block;
+        cursor:pointer;
+    }
+    .learn-more:hover,.heading-part div p:hover,#client-section #our-services:hover{
+        border-bottom:3px solid #E47312;
+        transition: 0.2s;
+        cursor:pointer;
+    }
+    #about{
+        margin-top:15%;
+        display: flex;
+    }
+    #about img{
+        width:600px;height: 400px;
+    }
+    #about div{
+        position:relative;
+        padding-left:100px;
+        padding-right:150px;
+        width:550px;
+    }
+    #about div h1{
+        position:absolute;
+        color: rgba(241, 241, 247, 0.4);
+        font-size: 120px;
+        letter-spacing: 11px;
+        transform: translate(-20px,-100px);
+        z-index: -1;
+    }
+    #about div h2{
+        font-size: 42px;
+        line-height: 50px;
+        letter-spacing: 1px;
+        color: #121213;
+    }
+    #about div p{
+        margin-bottom: 10px;
+    }
+    #about div #meet-team{
+        color: #919198;
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        display:inline-block;
+    }
+    #fun-facts{
+        display:flex;
+        width:90%;
+    }
+    #fun-facts div{
+        width:25%;
+        padding-right: 10%;
+    }
+    #fun-facts div .numbers{
+        margin-bottom: 10px;
+        color: #e47312;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 500;
+    }
+    #fun-facts div .fact{
+    margin-bottom: 10px;
+    }
+    #backgrnd-3sec{
+        background-color: #F7F8FC;
+        transform: translateY(70px);
+
+        padding-top:7%;
+    }
+    #projects-section,#team-section,#blog-section{
+        top: 10%;
+
+    }
+    #projects-section .heading-part div{
+        transform: translate(60px,20px);
+        width:85%;
+    }
+    #team-section .heading-part div{
+        transform: translate(70px,70px);
+        width:85%;
+    } 
+    #projects-section .heading-part h1{
+        transform: translate(50px,-70px);
+    }
+    #team-section .heading-part h1{
+        transform: translate(50px,-10px);
+    }
+    #flex{
+        display: flex;
+    }
+    #grp-images{
+        margin:5% 0% 7% 3%
+    }
+    #grp-images div{
+        display:inline-block;
+        position:relative;
+        padding-right:10px;
+        margin-bottom:7px;
+    }
+    #grp-images div .project{
+        height:380px; width:370px;background-color: black;
+    }
+    #grp-images div .project :hover{
+        z-index:1;cursor: pointer;
+        background-color: black;
+    }
+    #grp-images .images{
+        width:380px;height:380px;
+
+    }
+    #grp-images .images:hover{
+        opacity: 0.5;
+    }
+    #grp-images div .project-buttn{
+        opacity: 0;
+        position: absolute; 
+        color:white;top:38%;left:40%;
+        height: 70px;width:70px;
+        border-radius: 50%;
+        text-align: center;
+        padding:8px;
+        Background-Image: linear-gradient(59deg, #ff6361, #e47312);
+
+    }
+    #grp-images div:hover .project-buttn{
+        opacity: 1; 
+
+    }
+    .view-project{
+        padding-top:10px;padding-left:7px ;
+        text-transform: uppercase;
+        font-size:12px;
+        font-weight: 600;
+    }
+
+    #orange-section{
+        padding: 7% 25% ;
+         text-align: center;
+         background-color: #e47312;
+         background-image: linear-gradient(72deg
+, #e47312, rgba(255, 99, 97, 0.78));
+    }
+    #orange-section #main-title{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 42px;
+        color:white;
+        text-transform: uppercase;
+        Line-height: 50px;
+        letter-spacing: 1px;
+    }
+    #orange-section p{
+        margin-bottom: 30px;
+        color: hsla(0, 0%, 100%, 0.7);
+        margin-top: 10px;
+        font-size: 20px;
+        Line-height: 26px;
+        font-weight: 300;
+    }
+    #orange-section a{
+        margin-left:0%;
+        color:white;
+        font-size:14px;
+        font-weight: 600;
+        text-decoration: none;
+        padding-bottom:5px;
+    }
+    #orange-section a:hover{
+        border-bottom:2px solid white;
+    }
+    #team-profiles{
+        margin-top:10%;
+        display:flex;
+        padding-left:120px;
+        padding-right:10px;
+    }
+    .profile-cards{
+        position: relative;
+        width:280px;height:450px;
+        margin-right:40px;
+        display:flex;flex-direction: column;
+        background-color: white;
+    }
+    .profile-photo{
+        margin-right:40px;
+        background-position: 50% 0%;
+        background-size: cover;position: absolute;
+        background-repeat: no-repeat;
+        width:280px;height:350px;  
+    }
+    .profile-cards .content{
+        height:0px;   
+    }
+    #pic1{
+        background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg');
+    }
+    #pic2{
+        background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg');
+    }
+    #pic3{
+        background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg');
+    }
+    #pic4{
+        background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg');
+    }
+    .profile-cards h2{
+        bottom:10%;left:5%;
+        position: absolute;
+        font-size: 15px;
+        Letter-spacing: 1px
+    }
+    .profile-cards p{
+        bottom:3%;left:5%;
+        color: #bdbdc9;
+        position: absolute;
+        font-size: 16px;
+    }
+    .socialprofile-ids{
+        position:absolute;
+        right:0%;bottom:0%;
+        display:flex;padding:1%;width:20%;height: 50%;
+        flex-direction: column;justify-content: space-between;
+        background-color: #E47312;
+    }
+    .socialprofile-ids img{
+        width:50%;height:10%;
+        padding-bottom:15px;
+        padding:15px 5px 15px 10px;
+        cursor:pointer;
+    }
+    .socialprofile-ids .fb,.socialprofile-ids .twitter{
+        border-bottom:2px solid #f5ad6e;
+    }
+    #client-section{
+        margin-top:20%;
+        margin-left:7%;
+        display:inline-block;height: 100vh;
+        width:90%;
+    }
+    #client-section div{
+        position:relative;
+    }
+    #client-section div h1{
+        position:absolute;
+        font-size:120px;
+        color: rgba(241, 241, 247, 0.4);
+        letter-spacing: 11px;
+    }
+    #client-section div h2{
+        position:absolute;
+        font-size: 42px;
+        z-index: 2;letter-spacing: 2px;
+        transform: translate(40px,70px);
+
+    }
+    #client-section div #clients-para{
+        position:absolute;
+        color: #919198;
+        font-size: 17px;
+        width:30%;
+        Letter-spacing: 1px;
+        transform: translate(40px,150px);
+    }
+    #client-section div #our-services{
+        position:absolute;
+        color: #919198;
+        font-size: 13px;
+        Letter-spacing: 1px;
+        font-weight: 600;
+        width:87px;
+        transform: translate(40px,250px);
+    }
+    #first-column{
+        display:flex;
+        flex-direction: column;
+        width:400px;
+        margin-right:0;transform: translate(550px,-20px);
+    }
+    #first-column .reviews,#second-column .reviews{
+         width:300px;height: 250px;
+         position:relative;
+         background-color: white;
+         margin-bottom:50px;
+         text-align: center;
+    }
+    .reviews .sign{
+        background-color:#EB6F27;
+        position:absolute;
+        font-size:65px;
+        color:white;
+        width:60px;height:25px;
+        padding-top:35px;border-radius: 50%;
+        margin: 0 auto;
+        top:-20px;
+    }
+    .reviews .client-info{
+        padding: 0px 15px;position:absolute;
+    }
+    .client-info .client-name{
+        margin:0 auto;width:90%;
+        font-size: 15px;
+        line-height: 20px;top:1%;
+        font-weight: 600;position:absolute;
+    }
+    .client-info .client-prof{
+        color: #bdbdc9;
+        margin:0 auto;top:20px;right:-4px;
+        width:100%;
+        font-size: 16px;position:absolute;
+    }
+    .client-info .client-review{
+        margin-top: 15px;top:30px;
+        margin-bottom: 0px;position:absolute;
+    }
+    #second-column{
+        display:flex;
+        flex-direction: column;
+        width:400px;
+        margin-right:0;transform: translate(900px,-550px);
+    }
+    #blog-section{
+        margin-top: 10%;
+    }
+    #blog-section .heading-part h1{
+        transform: translate(70px,-70px);
+    }
+    #blog-section .heading-part div{
+        transform: translate(85px,10px);
+        width:85%;
+    }
+    #blogposts{
+        display:flex;
+        margin:5% 0% 0% 5%; 
+    }
+    .blog-cards {
+        margin-right:40px;position: relative;
+        cursor:pointer;
+    }
+    .blog-cards .dates{
+        position: absolute;
+        top:0;right:0;Width: 50px;
+
+    }
+    .dates .date-number{
+        Height: 40px;
+        Background-image: linear-gradient(45deg, #ff6361, #e47312);
+        color: #fff;
+        font-size: 23px;letter-spacing: 3px;
+        font-weight: 400;
+        text-align: center;
+         padding-top:12px;padding-left: 2px; 
+    }
+    .dates .month{
+        Height: 30px;
+        Background-color: #fff;
+        color: #9d9da5;
+        font-size: 15px;
+        font-weight: 600;
+        padding-top:10px; padding-left: 13px;
+        Letter-spacing: 2px;
+    }
+    .blog-cards .blog-pics{
+        width:400px;height:250px;
+    }
+    .blog-story{
+        padding-top: 10px;width:400px;height:200px;
+        transform: translateY(-10px);
+       position: absolute;
+
+        background-image: linear-gradient(158deg,#e47312,#ff6361);
+    }
+    .blog-story p{
+        margin:0;
+    }
+    .blog-story .blog-title{
+        margin: 15px 0px 20px 35px ;
+      font-size: 21px;letter-spacing: 3px;
+      line-height: 26px;
+      font-weight: 500;
+      color:white;
+    }
+    .blog-story .blog-para{
+        margin:10px 20px 15px 35px;
+        color: hsla(0, 0%, 100%, 0.7);
+        font-size: 17px;padding-right: 20px;
+        line-height: 25px;
+    }
+    .blog-story .blog-read{
+        color: #fff; margin-left: 35px;
+        font-size: 13px;width:70px;
+        letter-spacing: 1px;
+        border-bottom:3px solid #ee7f25;
+
+    }
+    .blog-story .blog-read:hover{
+        border-bottom:3px solid  hsla(0, 0%, 100%, 0.7);
+        transition: 0.4s;
+    }
+    #logo-section{
+        margin-top:30%;
+        display:flex;
+        z-index: 3;
+        padding:70px 100px;
+        Background-image: linear-gradient(56deg, #e47312, #ff6361);
+    }
+    #logo-section #trusted-cmpnies{
+        color: #fff;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transform: translate(-50px,10px);
+        width:30%;
+        text-align: center;
+    }
+    #logo-section #logo-imgs {
+        display: flex;justify-content: space-around;
+        width:100%;
+
+    }
+    #logo-imgs .logos{
+        width:90px;height: 70px;text-align: center;
+        margin:0;background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    #logo1{
+        background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-1w.png');
+       background-size: 100px;
+       margin-right: 100px;
+    }
+    #logo2{
+        background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-2w.png');
+       background-size: 100px;margin-right: 100px;
+    }
+    #logo3{
+        background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-3w.png');
+       background-size: 100px;margin-right: 100px;
+    }
+    #logo4{
+        background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-4w.png');
+       background-size: 100px;margin-right: 100px;
+    }
+    #logo5{
+        background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-5w.png');
+       background-size: 100px;margin-right: 100px;
+    }
+    #footer-section{
+        background-color:#0A1229;
+        color:white;
+    }
+    #footer-options{
+        display:flex;justify-content: space-around;
+        padding:50px 70px 150px 70px;
+    }
+    #about-nuuk{
+        padding-right:20px;
+    }
+    .title-lines {
+        display:flex;align-items: center;
+    }
+    .title-lines .title{
+        color: #fff;
+        font-size: 15px;
+         line-height: 20px;
+         font-weight: 600;
+         margin-right:40px;
+         letter-spacing: 1px;
+    }
+    .title-lines .line{
+        background-color:#E47312;
+        width:200px;height:2px;
+    }
+    #about-para{
+        font-size: 17px;
+        line-height: 25px;
+        color: #fff;width:250px;
+        margin-bottom:40px;
+    }
+
+    #services #services-options{
+        display:flex;
+        flex-direction: column;
+    }
+    .footer-links,.contact-heading p{
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        margin-top:20px;
+        cursor: pointer;
+        color:white;
+        text-decoration: none;
+        width:fit-content;
+        padding-bottom:2px;
+    }
+    .footer-links:hover{
+        border-bottom:2px solid white;
+    }
+    .contact-heading{
+        display:flex;align-items: center;
+    }
+    .contact-heading img{
+        width:20px;height:20px;
+        margin-right:15px;
+    }
+    .contact-heading p{
+        cursor: default;
+    }
+    .contact-3sections .contact-secndline{
+        margin:0;padding-left:34px;
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 17px;
+    line-height: 25px;
+    }
+    #footer-section{
+        position:relative;
+    }
+    #footer-section #logos2{
+        position:absolute;
+        bottom:0;
+        left:0;
+    }
+    @media(max-width:990px){
+     body{
+         margin:0;
+         width:100%;
+     } 
+     /* navBar */
+     #Nav{
+         margin:0;
+         width:100%;height:60px;
+         position:absolute;
+         top:0px;left:0px;
+     } 
+     #logos{
+         height:60px;
+     }
+     .hamburger-line{
+        height: 2px;position: absolute;
+        background-color: #000;
+        left: unset;
+         top: 50%;
+          right: 0;
+        width: 30px;
+     }
+     .hamburger-line:first-of-type{
+     transform: translate(-40%, -4px);
+     }
+     .hamburger-line:last-of-type{
+        transform: translate(-40%, 5px);
+     }
+     #dream-para h1{
+        font-size: 50px;
+     }
+     #info-section{
+         width:100%;
+         padding-left:50px;
+         padding-right:50px;
+     }
+     #social-apps{
+         top:196px;
+     }
+     #nav-topmenu{
+           display: none;
+       }
+       /* services-section */ 
+      #services-section{
+         margin:0%;
+         padding-top:10%;
+         width:100%;
+         transform: translate(10px,100px);
+      }
+      .heading-part h1{
+        font-size: 80px;
+      }
+      .heading-part div{
+          width:90%;
+          padding-left:4%;
+      }
+      .heading-part div h2{
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 3px;
+      }
+      .heading-part div p{
+          letter-spacing: 2px;
+      }
+      #services-section .heading-part h1{
+        transform: translate(27px,-50px);
+      }
+      #services-section .heading-part div h2{
+        transform: translate(16px,-9px);
+      }
+      #service-cards{
+          margin:10% 0% 0% 0%;
+          padding-left:6%;
+          width:100%;
+      }
+      #service-cards div{
+          width:50%;
+          margin-right:35px;
+      }
+      #about{
+          flex-direction: column;
+      }
+      #about img{
+          padding-left:5%;
+          width:85%;
+          height:50%;
+      }
+      #about div{
+          width:90%;
+          padding-left:5%;
+          padding-right:0%;
+      }
+      #about div h1{
+        font-size: 80px;
+          transform: translate(-10px,40px);
+      }
+      #about div h2{
+        font-size: 32px;
+        line-height: 40px;letter-spacing: 2px;
+        transform: translate(5px,80px);
+      }
+      #about div p:first-of-type{
+          padding-top:12%;
+          padding-bottom:1%;
+      }
+      #fun-facts{
+          padding-left:5%;
+          width:95%;
+      }
+      #backgrnd-3sec{
+          margin-top:10%;
+          width:100%;
+          height: 400vh;
+      }
+      #projects-section .heading-part div{
+          transform: translate(20px,-10px);
+      }
+      #grp-images{
+          margin:10 auto;
+          width:90%;
+          padding-left:7% ;
+      }
+      #grp-images div .project{
+          width:200px;height:220px;
+      }
+      #grp-images .images{
+          width:210px;height: 220px;
+      }
+      #orange-section{
+          padding:7% 5%;
+      }
+      #orange-section #main-title{
+        font-size: 32px;
+        line-height: 40px;
+      }
+      #team-section .heading-part h1{
+          transform: translate(70px,70px);
+      }
+      #team-section .heading-part div{
+          transform: translate(50px,140px);
+      }
+      #team-profiles{
+          margin-top: 20%;
+          padding-left:5%;
+
+      }
+      .profile-cards{
+          width:50%;height:300px;
+          margin-right:15px;
+      }
+      .profile-photo{
+          width:100%;height:200px;
+          margin-bottom:15px;
+          margin-right:0px;
+      }
+      .profile-cards h2{
+          margin-top:1px;
+          margin-left:20px;
+      }
+      .profile-cards p{
+          margin:0; margin-left:20px;
+      }
+      .socialprofile-ids{
+          padding:1% 1%;
+      }
+
+      #client-section{
+          margin-left:3%;position: relative;
+          margin-top:10%;
+      }
+      #client-section div h1{
+        font-size: 80px;
+        transform: translate(30px,0px);
+      }
+      #client-section div h2{
+        font-size: 32px;
+      }
+      #client-section div #clients-para{
+          width:100%;
+      }
+      #first-column{
+          transform:translate(20px,350px);position: absolute;
+      }
+      #second-column{
+        transform:translate(450px,-190px);position: absolute;
+      }
+      #first-column .reviews,#second-column .reviews{
+          width:80%;height: 35vh;
+      }
+      .client-info .client-name{
+          width:95%; transform:translate(0px,10px);
+          margin-bottom:10px;
+      }
+      .client-info .client-prof{
+        width:95%;transform:translate(0px,30px);
+      }
+      .client-info .client-review{
+        transform:translate(0px,45px);
+      }
+      #blog-section .heading-part h1{
+        transform: translate(70px,10px);
+      }
+      #blog-section .heading-part div{
+          transform: translate(40px,70px);
+      }
+      #blogposts{
+          margin-top:10%;
+      }
+      .blog-cards{
+            width:30%;
+            margin-right:2%;
+      }
+      .blog-cards .blog-pics{
+          width:100%;
+      }
+      .blog-story{
+          width:100%;
+      }
+      .blog-story .blog-title{
+          margin:5px 0px 10px 25px;
+          font-size: 19px;
+          line-height: 26px;
+          width:fit-content;
+      }
+      .blog-story .blog-para{
+          margin:10px 0px 15px 25px;
+      }
+      #logo-section{
+          display:flex;
+          flex-direction: column;
+      }
+      #logo-section #trusted-cmpnies{
+          width:112%;
+
+      }
+      .title-lines .title{
+          margin-right:10px;
+          width:100%;
+      }
+      .title-lines .line{
+          transform: translate(-50px,0px);
+          width:200px;
+      }
+
+    } 
+    @media(max-width:855px){
+       #backgrnd-3sec{
+           height:370vh;
+       }
+       #first-column,#second-column{
+           width:35%;
+       }
+       #second-column{
+           transform: translate(350px,-150px);
+       }
+      .client-info .client-name{
+           font-size: 13px;transform: translate(-5px,-10px);
+       }
+       .client-info .client-prof{
+           font-size:13px;transform: translate(-9px,0px);
+       }
+       .client-info .client-review{
+           font-size:13px;width:80%;transform: translate(20px,0px);
+       }
+       #first-column .reviews,#second-column .reviews{
+           width:250px;height: 35vh;
+       }
+       .blog-cards{
+          height:350px;width:250px;
+       }
+       .blog-pics{
+        width:250px;height:200px;
+       }
+       .blog-story{
+         height:220px;font-size:10px;
+       }
+       #footer-options{
+           padding:10px;
+           height: 70vh;
+           position: relative;
+       }
+       #about-nuuk,#services,#contact-us{
+           position: absolute;
+
+           width:30%;
+       }
+       .title-lines .title{
+        font-size: 13px;
+       }
+       .title-lines .line{
+           width:120px;transform: translateX(-80px);
+       }
+       #about-nuuk{
+           transform: translate(-220px,0px);
+       }
+       #about-para{
+           font-size:11px;width:150px;
+       }
+       #services{
+        transform: translate(20px,0px);
+       }
+       #contact-us{
+        transform: translate(230px,0px);
+       }
+       #contact-us .contact-3sections{
+           height:75%;width: fit-content;
+       }
+       .footer-links,.contact-heading p{
+           font-size: 11px;
+       }
+       .contact-3sections .contact-secndline{
+           height:20px;font-size: 12px;
+       }
+       #footer-section #logos2{
+           padding:5px 20px;
+           height:60px;
+           left:7%;bottom:7%;
+
+       }
+    } 
+    @media(max-width:760px) {
+        #info-section div .middleline{
+            width:230px;text-align:center;
+        }
+        .heading-part h1{
+            font-size:60px;
+        }
+        .heading-part div h2{
+            font-size:26px;
+        }
+        #service-cards{
+            display:flex;
+            flex-direction:column;
+        }
+        #service-cards div .descripiton{
+            width:630px;
+            margin-bottom: 0px;
+        }
+        #service-cards div .learn-more{
+            margin-bottom: 40px;
+        }
+        #about div h1{
+            font-size:60px;
+        }
+        #about div h2{
+            font-size:26px;
+        }
+        #fun-facts{
+            flex-direction: column;
+        }
+        #fun-facts div .fact{
+            width:580px;
+        }
+        #backgrnd-3sec{
+            height:1090vh;
+        }
+        #grp-images div{
+             width:90%;height:80vh;
+             padding-right:0px;
+        }
+        #grp-images div .project{
+            width:100%;
+        }
+        #grp-images .images{
+            width:100%;height: 70vh;
+        }
+        #team-profiles{
+            display:flex;
+            flex-direction: column;
+            width:90%;
+        }
+        .profile-cards{
+            width:100%;
+            height:400px;
+            margin-bottom:40px;
+        }
+        .profile-photo{
+            height:300px;
+        }
+        .socialprofile-ids{
+            padding:0%;
+            width:40px;height:150px;
+            justify-content: space-evenly;
+        }
+        .socialprofile-ids img{
+            padding:5px;height:15%;
+            padding-left:10px;
+        }
+        #first-column{
+            width:90%;
+            transform: translate(50px,400px);
+        }
+        #second-column{
+            width:90%;
+            transform: translate(50px,400px);
+        }
+        #first-column .reviews,#second-column .reviews{
+            width:100%;
+        }
+        .client-info .client-name {
+            font-size:15px;
+            transform: translateX(4px);
+        }
+        .client-info .client-prof{
+            font-size:15px;
+            transform: translateX(-15px);
+        }
+        .client-info .client-review{
+            font-size:17px;
+            transform: translate(20px,20px);
+            width:90%;
+        }
+        #blogposts{
+            display:flex;
+            flex-direction: column;
+            padding-right:20px;
+        }
+        .blog-cards{
+            width:100%;height:100vh;
+        }
+        .blog-cards .blog-pics{
+            height:60%;
+        }
+        .blog-story{
+             height:170px
+        }
+        .blog-story .blog-read{
+            transform:translateX(-10px);
+        }
+        #logo-section{
+            margin-top:0px;
+        }
+        #logo-section #trusted-cmpnies{
+            margin-bottom:20px;
+        }
+        #logo-section #logo-imgs{
+            width:900px;height:150px;
+            flex-wrap:wrap;
+            transform:translate(-150px,0px);
+            justify-content:flex-start;
+        }
+        #logo-imgs .logos{
+            width:270px;
+            height:80px;
+        }
+        #footer-section{
+            height:150vh;
+        }
+        #footer-options{
+            flex-direction:column;
+        }
+        #about-nuuk{
+            transform: translate(30px,-90px);
+            width:90%;margin-bottom: 70px;
+        }
+        #services{
+            transform: translate(30px,90px); width:90%;
+        }
+        #contact-us{
+            transform: translate(30px,390px); width:90%;
+        }
+        .title-lines .title{
+            font-size:15px;
+            width:fit-content;
+        }
+        .title-lines .line{
+            width: 80%;
+            transform: translateX(20px);
+        }
+        #about-para{
+            font-size:17px;
+            width:90%;
+            margin-bottom:20px;
+        }
+        .footer-links,.contact-heading p{
+            font-size:13px;
+        }
+        .contact-heading{
+            margin-left:20px;
+        }
+        .contact-3sections .contact-secndline{
+            font-size:17px;
+            padding-left:55px;
+        }
+    } 
+
+    Body {
+        margin:2% 2% 0% 2%;
+        font-family: 'Dosis', sans-serif;
+        color: #121213;
+        font-size: 14px;
+        Line-height: 20px;
+    }
