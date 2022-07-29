@@ -162,13 +162,13 @@ p{
         color: hsla(0, 0%, 100%, 0.7);
         Letter-spacing : 1px;
     }
-    #imp div .middleline{
+    #imp div .cnt2{
         color: hsla(0, 0%, 100%, 0.7);
         Letter-spacing : 1px;
         font-size: 15px;
         margin:2px 0px;
     }
-    #imp .firstline,#imp #map{
+    #imp .count1,#imp #map{
         color:white;
         margin:11px 0px;
         font-size: 13px;
@@ -267,20 +267,20 @@ p{
         transition: 0.2s;
         cursor:pointer;
     }
-    #about{
+    #apt{
         margin-top:15%;
         display: flex;
     }
-    #about img{
+    #apt img{
         width:600px;height: 400px;
     }
-    #about div{
+    #apt div{
         position:relative;
         padding-left:100px;
         padding-right:150px;
         width:550px;
     }
-    #about div h1{
+    #apt div h1{
         position:absolute;
         color: rgba(241, 241, 247, 0.4);
         font-size: 120px;
@@ -288,16 +288,16 @@ p{
         transform: translate(-20px,-100px);
         z-index: -1;
     }
-    #about div h2{
+    #apt div h2{
         font-size: 42px;
         line-height: 50px;
         letter-spacing: 1px;
         color: #121213;
     }
-    #about div p{
+    #apt div p{
         margin-bottom: 10px;
     }
-    #about div #meet-team{
+    #apt div #meet-team{
         color: #919198;
         font-size: 13px;
         letter-spacing: 1px;
@@ -730,7 +730,7 @@ p{
         display:flex;justify-content: space-around;
         padding:50px 70px 150px 70px;
     }
-    #about-nuuk{
+    #apt-nuuk{
         padding-right:20px;
     }
     .title-lines {
@@ -748,7 +748,7 @@ p{
         background-color:#E47312;
         width:200px;height:2px;
     }
-    #about-para{
+    #apt-para{
         font-size: 17px;
         line-height: 25px;
         color: #fff;width:250px;
@@ -877,29 +877,29 @@ p{
           width:50%;
           margin-right:35px;
       }
-      #about{
+      #apt{
           flex-direction: column;
       }
-      #about img{
+      #apt img{
           padding-left:5%;
           width:85%;
           height:50%;
       }
-      #about div{
+      #apt div{
           width:90%;
           padding-left:5%;
           padding-right:0%;
       }
-      #about div h1{
+      #apt div h1{
         font-size: 80px;
           transform: translate(-10px,40px);
       }
-      #about div h2{
+      #apt div h2{
         font-size: 32px;
         line-height: 40px;letter-spacing: 2px;
         transform: translate(5px,80px);
       }
-      #about div p:first-of-type{
+      #apt div p:first-of-type{
           padding-top:12%;
           padding-bottom:1%;
       }
@@ -1079,7 +1079,7 @@ p{
            height: 70vh;
            position: relative;
        }
-       #about-nuuk,#services,#contact-us{
+       #apt-nuuk,#services,#contact-us{
            position: absolute;
 
            width:30%;
@@ -1090,10 +1090,10 @@ p{
        .title-lines .line{
            width:120px;transform: translateX(-80px);
        }
-       #about-nuuk{
+       #apt-nuuk{
            transform: translate(-220px,0px);
        }
-       #about-para{
+       #apt-para{
            font-size:11px;width:150px;
        }
        #services{
@@ -1119,7 +1119,7 @@ p{
        }
     } 
     @media(max-width:760px) {
-        #imp div .middleline{
+        #imp div .cnt2{
             width:230px;text-align:center;
         }
         .mainPart h1{
@@ -1139,10 +1139,10 @@ p{
         #service-cards div .learn-more{
             margin-bottom: 40px;
         }
-        #about div h1{
+        #apt div h1{
             font-size:60px;
         }
-        #about div h2{
+        #apt div h2{
             font-size:26px;
         }
         #env{
@@ -1250,7 +1250,7 @@ p{
         #footer-options{
             flex-direction:column;
         }
-        #about-nuuk{
+        #apt-nuuk{
             transform: translate(30px,-90px);
             width:90%;margin-bottom: 70px;
         }
@@ -1268,7 +1268,7 @@ p{
             width: 80%;
             transform: translateX(20px);
         }
-        #about-para{
+        #apt-para{
             font-size:17px;
             width:90%;
             margin-bottom:20px;
