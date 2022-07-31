@@ -323,12 +323,7 @@ p{
     {
     margin-bottom: 10px;
     }
-    #subb{
-        background-color: #F7F8FC;
-        transform: translateY(70px);
-
-        padding-top:7%;
-    }
+    
     #mill,#team-section,#blog-section{
         top: 10%;
 
@@ -469,9 +464,10 @@ p{
     .profile-cards .content{
         height:0px;   
     }
-    #pic1{
+    /* #pic1{
+        
         background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg');
-    }
+    } */
     #pic2{
         background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg');
     }
@@ -521,13 +517,16 @@ p{
     #client-section div h1{
         position:absolute;
         font-size:120px;
-        color: rgba(241, 241, 247, 0.4);
+        color: rgba(229, 229, 236, 0.4);
         letter-spacing: 11px;
     }
+
+    
     #client-section div h2{
         position:absolute;
         font-size: 42px;
-        z-index: 2;letter-spacing: 2px;
+        z-index: 2;
+        letter-spacing: 2px;
         transform: translate(40px,70px);
 
     }
@@ -907,11 +906,6 @@ p{
           padding-left:5%;
           width:95%;
       }
-      #subb{
-          margin-top:10%;
-          width:100%;
-          height: 400vh;
-      }
       #mill .mainPart div{
           transform: translate(20px,-10px);
       }
@@ -1037,16 +1031,13 @@ p{
           margin-right:10px;
           width:100%;
       }
-      .title-lines .line{
+      /* .title-lines .line{
           transform: translate(-50px,0px);
           width:200px;
-      }
+      } */
 
     } 
     @media(max-width:855px){
-       #subb{
-           height:370vh;
-       }
        #first-column,#second-column{
            width:35%;
        }
@@ -1087,9 +1078,9 @@ p{
        .title-lines .title{
         font-size: 13px;
        }
-       .title-lines .line{
+       /* .title-lines .line{
            width:120px;transform: translateX(-80px);
-       }
+       } */
        #apt-nuuk{
            transform: translate(-220px,0px);
        }
@@ -1151,9 +1142,6 @@ p{
         #env div .trst
         {
             width:580px;
-        }
-        #subb{
-            height:1090vh;
         }
         #grp-images div{
              width:90%;height:80vh;
@@ -1264,10 +1252,8 @@ p{
             font-size:15px;
             width:fit-content;
         }
-        .title-lines .line{
-            width: 80%;
-            transform: translateX(20px);
-        }
+       
+      
         #apt-para{
             font-size:17px;
             width:90%;
