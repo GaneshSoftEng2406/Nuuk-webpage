@@ -1,0 +1,1306 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.main-container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.banner {
+    background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%), url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+    height: 85vh;
+    background-position: 0px 0px , 50% 0%;
+    background-attachment: scroll, fixed;
+    background-size: auto, cover;
+    position: relative;
+
+}
+.after-banner {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: center;
+}
+.topbar {
+    position: relative;
+    width: 90%;
+    background-color: white;
+    height: 90px;
+    margin-top: 30px;
+    display: flex;
+}
+.right-menu-container {
+    width: 10%;
+    position: relative;
+}
+.logo-container {
+    background-color: #e47312;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-container {
+    width: 78%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.quote-container {
+    width: 12%;
+    background-color: #e47312;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    line-height: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.quote-container:hover {
+    background-color: #e98a38;
+}
+.quote {
+    font-weight: 500;
+    font-size: 17px;
+}
+.menu-item {
+    text-decoration: none;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    margin: 3px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.menu-item.active {
+    color: #e47312;
+}
+.menu-item:hover {
+    color: #e47312;
+}
+
+/* Banner Content Section */
+.banner-content-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 120px;
+}
+.banner-title {
+    text-transform: uppercase;
+    font-size: 62px;
+    line-height: 70px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: 600;
+    /* padding-top: 110px; */
+    margin: 0;
+}
+.banner-paragraph {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    margin: 10px 0px 5px 0px;
+}
+.banner-button-section {
+    background-color: #e47312;
+    padding: 15px 25px;
+    margin-top: 30px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.banner-button-section:hover {
+    background-color: #e98a38;
+}
+.banner-button {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+/* Features Section Start */
+.features-wrapper {
+    width: 1000px;
+    background-image: linear-gradient(186deg, #e47312, #ff6361);
+    padding: 5px 50px 5px 50px;
+    display: flex;
+    /* position: absolute;
+    left: auto;
+    top: auto;
+    right: 0;
+    bottom: -83px;
+    margin-top: 50%; */
+    bottom: -83px;
+    margin-left: 280px;
+    margin-top: 2%;
+
+}
+.info-flex {
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-child {
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+}
+.phone-text {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+.paragraph-white {
+    font-size: 17px;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 10px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 5px;
+}
+.paragraph-white.map {
+    color: white;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.paragraph-white.map:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+/* Socia Icons on Banner */
+.social-vertical {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 162px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    background-color: #0a1229;
+}
+.social-icon {
+    display: flex;
+    width: 40px;
+    height: 50px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-block-color: rgba(255, 255, 255, 0.14);
+}
+
+/* Special Container  */
+#specialisation {
+    padding-top: 15%;
+    padding-bottom: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+.specialisation-wrapper {
+    position: relative;
+    display: flex;
+    margin-bottom: 7%;
+    justify-content: space-between;
+    align-items: center;
+}
+.specialisation-title {
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+}
+.specialisation-heading {
+    position: absolute;
+    left: -53px;
+    top: -23px;
+    z-index: 1;
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 120px;
+    letter-spacing: 11px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.view-services {
+    margin-top: 0px;
+    position: relative;
+    color: #919198;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+}
+.view-services:hover {
+    text-decoration: underline;
+    text-decoration-color: #e47312;
+    text-decoration-thickness: 2px;
+}
+
+/* Specialisation Services */
+.specialisation-services-list {
+    display: flex;
+}
+.service-list-1 {
+    width: 25%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.service-content {
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+.service-feature-icon {
+    margin-bottom: 20px;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.service-title {
+    margin-top: 0px;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.service-paragraph {
+    margin-bottom: 25px;
+    font-family: 'Dosis', sans-serif;
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/* About Us */
+#about-us {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+.about-us-container {
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    align-items: center;
+}
+.aboutus-image-container {
+    width: 50%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about-image {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+/* Right Section */
+.aboutus-right-container {
+    width: 50%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px ;
+}
+.about-content-container {
+    padding-left: 100px;
+}
+
+/* Countdown */
+#countdown {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+.countdown-container {
+    display: flex;
+}
+.countdown-number {
+    margin-bottom: 10px;
+    color: #e47312;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+}
+.countdown-paragraph {
+    margin-bottom: 10px;
+    font-family: 'Dosis', sans-serif;
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+}
+.countdown-wrapper {
+    margin-right: 10%;
+    width: 25%;
+}
+
+
+/* Projects Section */
+#projects {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    position: relative;
+    background-color: #f7f8fc;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.projects-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Modules Section */
+
+.images-container {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+.product-image {
+    width: calc(33.3% - 20px);
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.image-project {
+    width: 100%;
+    cursor: pointer;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.project-overlay {
+    position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: .2s;
+  opacity: 0;
+}
+.product-image:hover .project-overlay {
+    opacity: 1;
+}
+.project-circle {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    padding-right: 11px;
+    padding-left: 11px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-image: linear-gradient(59deg, #ff6361, #e47312);
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    }
+
+.product-image:hover .project-circle {
+        opacity: 1;
+    }
+/* Lets Make Something Great */
+
+#something-great {
+    /* padding-top: 10%; */
+    padding-bottom: 5%;
+    position: relative;
+    background-color: #f7f8fc;
+    margin-right: auto;
+    margin-left: auto;
+}
+.together {
+    margin-top: 10px;
+    background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url("https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg");
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll,fixed;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+.together-heading {
+    color: white;
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.together-paragraph {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Dosis', sans-serif;
+}
+.together-quote {
+    margin-top: 25px;
+    position: relative;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    transition: all 0.3 ease;
+}
+.together-quote:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+}
+
+/* Team Section Start */
+
+#team {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    position: relative;
+    background-color: #f7f8fc;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.team-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Team Cards-Section */
+.team-cards-container {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.team-cards-section {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+  
+    
+}
+.team-card-wrapper {
+    position: relative;
+    width: calc(25% - 30px);
+    margin: 15px;
+}
+.team-photo {
+    min-height: 300px;
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team-content {
+    background-color: white;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-left: 29px;
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
+}
+.team-title {
+    line-height: 20px;
+    margin-top: 0px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.team-job {
+    margin-bottom: 0px;
+    color: #bdbdc9;
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 25px;
+}
+.team-social-vertical {
+    display: flex;
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    flex-direction: column;
+    background-color: #e47312;
+    padding: 10px;
+}
+.team-social-icon {
+    display: flex;
+    width: 40px;
+    height: 50px;
+    float: left;
+    justify-content: center;
+    align-items:  center;
+}
+.team-photo-1 {
+    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg');
+}
+.team-photo-2 {
+    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg');
+}
+.team-photo-3 {
+    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg');
+}
+.team-photo-4 {
+    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg');
+}
+
+/* Testimonail Section */
+
+#testimonial {
+    padding-bottom: 5%;
+    position: relative;
+    background-color: #f7f8fc;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    width: 80%;
+}
+.testimonial-container {
+    display: flex;
+}
+.testimonial-left-section {
+    width: 40%;
+}
+.testimonial-right-section {
+    width: 60%;
+}
+.testimonial-right-section-columns {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+}
+.columns-sections {
+    padding-left: 0;
+    padding-right: 0;
+    width: 50%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    margin-left: 70px;
+}
+.testimonail-1 {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin-bottom: 61px;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    margin-top: 50px;
+    padding-bottom: 26px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    background-color: white;
+    text-align: center;
+}
+.testimonial-photo {
+    position: relative;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+    margin-left: 35%;
+    margin-right: 52px;
+    margin-top: -115px;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 100%;
+    background-image: linear-gradient(8deg, #ff6361, #e47312);
+    opacity: 1;
+    color: white;
+    font-size: 80px;
+    line-height: 80px;
+}
+.testimonial-text-block {
+    padding-top: 12px;
+}
+.testimonail-title {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.testimonial-job {
+    margin-bottom: 0px;
+    color: #bdbdc9;
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+}
+.testimonial-paragraph {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: #919197;
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+}
+.move-down {
+    margin-top: 151px;
+}
+
+/* Blog Section */
+#blog {
+    padding-bottom: 5%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    width: 80%;
+}
+.blog-cards-section {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.blog-cards-wrapper {
+    width: 33.3%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.blog-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    text-decoration: none;
+    max-width: 100%;
+    font-family: 'Dosis', sans-serif;
+    margin: 10px;
+}
+.blog-image {
+    position: relative;
+    background-color: #5c5c5c;
+}
+.meta-tag {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+}
+.meta-number {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #ff6361, #e47312);
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Dosis', sans-serif;
+}
+.meta-month {
+    display: flex;
+    width: 70px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #9d9da5;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.blog-final-image {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.blog-content {
+    width: 100%;
+    padding: 25px 56px 25px 30px;
+    background-color: #e47312;
+    background-image: linear-gradient(158deg, #e47312, #ff6361);
+    position: relative;
+}
+.blog-title {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    line-height: 16px;
+    flex: 0 0 auto;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.blog-paragraph {
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+    line-height: 25px;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 0;
+}
+.white-service {
+    color: white;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+    text-decoration-thickness: 2px;
+}
+.white-service:hover {
+    text-decoration-color: white;
+}
+
+/* Before Footer Section */
+#before-footer {
+    padding-bottom: 5%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 32%;
+    width: 95%;
+    z-index: 2;
+}
+.footer-logo-section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: linear-gradient(56deg, #e47312, #ff6361);
+    padding-right: 5%;
+    padding-left: 5%;
+    display: flex;
+}
+.logo-section-text {
+    position: relative;
+    text-align: center;
+}
+.footer-logo-flex {
+    display: flex;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+}
+.before-footer-heading {
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+    position: relative;
+    z-index:2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    padding-right: 100px;
+    text-align: center;
+}
+.footer-logo {  
+    width: 100px;
+    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-1w.png');
+    width: 20%;
+    min-width: 100px;
+
+}
+.footer-heading-section {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+/* Footer Section */
+#footer {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-top: 1px solid #2f3038;
+    background-color: #0a1229;
+    margin-top: -90px;
+
+}
+.footer-container {
+    max-width: 1200px;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.footer-1-wrapper {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.footer-col-1 {
+    width: 33.3%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-col-1-container {
+    padding-right: 20%;
+}
+.with-line {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-heading {
+    margin-bottom: 30px;
+    padding-right: 14px;
+    margin-right: 60px;
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    background-color: #0a1229;
+}
+.line {
+    position: absolute;
+    left: 5%;
+    top: 8px;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    height: 1px;
+    background-color: #ff6361;
+}
+
+.footer-paragraph {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: 'Dosis', sans-serif;
+}
+.footer-1-wrapper {
+    display: flex;
+}
+.footer-special-service {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 0px;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+.footer-special-service::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    background-color: transparent;
+    transition: 0.2s;
+    color: #fff;
+}
+.footer-special-service:hover {
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+}
+.footer-service-wrapper {
+    margin-top: 8%;
+}
+.footer-contact-wrapper {
+    margin-bottom: 15px;
+    padding-top: 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+.footer-info-image {
+    width: 20px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.footer-phone-text {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.footer-contact-paragraph {
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 0;
+    font-family: 'Dosis',sans-serif;
+}
+.footer-final-logo-section {
+    margin-top: 80px;
+}
+.footer-logo-container {
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    align-items: center;
+}
+.footer-logo-wrapper {
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-main-logo {
+    position: relative;
+    display: flex;
+    height: 110px;
+    padding-right: 35px;
+    padding-left: 35px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background-color: #e47312;
+    float: left;
+    text-decoration: none;
+}
+.footer-main-logo > img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+
+/* Media Query */
+@media (max-width:400px) {
+    .main-container {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .banner {
+        height: 500px;
+        background-size: auto, cover;
+        display: block;
+    }
+    .topbar {
+        margin-top: 0px;
+        width: 100%;
+        height: 70px;
+    }
+    .right-menu-container {
+        width: 40%;
+    }
+    .logo-container {
+        height: 70px;
+    }
+    .quote-container {
+        display: none;
+    }
+    .menu-section {
+        display: none;
+    }
+    .banner-content-container {
+        width: 80%;
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    .banner-title {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .banner-button-section {
+        width: 40%;
+    }
+    .banner-button {
+        font-size: 8px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    .features-wrapper {
+        display: none;
+    }
+    .social-vertical {
+        bottom: 0;
+    }
+
+    /* Specialisation Section */
+    #specialisation {
+        max-width: none;
+    }
+    .specialisation-wrapper {
+        margin-bottom: 15%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .specialisation-title {
+        margin-bottom: 9px;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .specialisation-heading {
+        display: none;
+    }
+    /* Specialisation-Services */
+    .specialisation-services-list {
+        flex-direction: column;
+    }
+    .service-list-1 {
+    width: 100%;
+    }
+
+    /* About US */
+    .about-us-container {
+        flex-direction: column;
+    }
+    .aboutus-image-container {
+        width: 100%;
+    }
+    .aboutus-right-container {
+        width: 100%;
+        left: auto;
+        right: auto;
+    }
+    .about-image {
+        margin-bottom: 84px;
+    }
+    .about-content-container {
+        padding-left: 0px;
+    }
+    /* Countdown */
+.countdown-container {
+    flex-direction: column;
+}
+.countdown-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+}
+/* Modules */
+.images-container {
+    width: 100%;
+    flex-direction: column;
+}
+.product-image {
+    width: 95%;
+}
+#projects {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Scrolled Image  */
+.together {
+    text-align: left;
+    padding: 10% 5%;
+}
+.together-heading {
+    font-size: 26px;
+    line-height: 30px;
+}
+/* Team Section */
+.team-cards-section {
+    flex-direction: column;
+}
+.team-card-wrapper {
+    width: 100%;
+    margin: 10px;
+}
+
+/* Testimoanial Section */
+.testimonial-container {
+    flex-direction: column;
+}
+.testimonial-left-section {
+    width: 95%;
+}
+.testimonial-right-section {
+    width: 100%;
+}
+.testimonial-right-section-columns {
+    flex-direction: column;
+}
+.columns-sections {
+    width: 100%;
+    margin-left: 0px;
+}
+.testimonail-1 {
+    margin-left: 20px;
+}
+.move-down {
+    margin-top: 10px;
+}
+/* Blog Section */
+.blog-wrapper {
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin: 0px;
+}
+.blog-cards-wrapper {
+    width: 100%;
+    margin-bottom: 30px;
+} 
+
+/* Before Footer Section */
+.footer-logo-section {
+    flex-direction: column;
+}
+.footer-logo-flex {
+    flex-direction: column;
+}
+.footer-heading-section {
+    width: 100%;
+    text-align: center;
+}
+.before-footer-heading {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+    margin-bottom: 30px;
+}
+#before-footer {
+    width: 100%;
+}
+.footer-logo {
+    margin-top: 30px;
+}
+/* Main Footer */
+#footer {
+    width: 100%;
+}
+.footer-col-1 {
+    width: 100%;
+}
+.footer-1-wrapper {
+    flex-direction: column;
+}
+.footer-col-1-container {
+    margin-top: 20%;
+}
+.footer-contact-wrapper {
+    margin-top: 20px;
+}
+}
